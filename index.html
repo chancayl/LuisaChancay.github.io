@@ -26,7 +26,7 @@
       </div>
       <div class="scroll-btn">
         <div class="scroll-bar">
-          <a href=""><span></span></a>
+          <a href="#about"><span></span></a>
         </div>
       </div>
     </section>
@@ -48,24 +48,27 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#home">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT ME</a>
+                <a class="nav-link" href="#about">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">RESUME</a>
+                <a class="nav-link" href="#resume">RESUME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">PROJECTS</a>
+                <a class="nav-link" href="#projects">PROJECTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
+
+      <!-- ---------------------About myself-------------------- -->
+
       <div class="about container" id="about">
         <div class="row">
           <div class="col-md-8 ">
@@ -92,6 +95,13 @@
           </div>
         </div>
       </div>
+
+<!-- ----------------Social-icons------------------ -->
+
+
+
+<!-- --------------------Resume---------------------- -->
+
       <div class="resume" id="resume">
         <div class="contaier">
           <div class="row">
@@ -287,7 +297,7 @@
                 <li>
                   <b><p>Front-end</p></b>
                   <b>Built with:  <p>React native, Mapbox, Xcode and Here Technologies</p></b><br />
-                  <b>Prototype: </b> <a href="https://www.youtube.com/watch?v=lE62AV5jQNc">https://www.youtube.com/watch?v=lE62AV5jQNc</a>
+                  <b>Demo: </b> <a href="https://www.youtube.com/watch?v=lE62AV5jQNc">https://www.youtube.com/watch?v=lE62AV5jQNc</a>
                   <br/>
                   <b>Github: </b> <a href="https://github.com/BHILT-RunningApp/Front-End-React-Native-XCode">https://github.com/BHILT-RunningApp/Front-End-React-Native-XCode</a>
                   
@@ -327,5 +337,12 @@
       </div>
       </div>
     </section>
+
+    <!-- ------------Smooth Scroll -------------- -->
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
   </body>
 </html>
