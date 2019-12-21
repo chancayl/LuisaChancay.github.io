@@ -102,19 +102,23 @@ body {
 }
 .profile-img {
   height: 400px;
-  position: left;
-  padding-right: 10px;
-  margin: 10px;
-  /* align-items: left; */
+  position: relative;
+  align-content: left;
+  align-items: left;
+  margin: 40px;
+  margin-left: 0;
+  margin-bottom: 60px;
+  max-width: 900px;
 }
 
-.col-md-6 {
+.abouttext {
+  height: 400px;
+  position: relative;
   align-content: right;
   align-items: right;
-  padding-left: 10px;
-  position: right;
+  margin: 30px;
+  margin-bottom: 60px;
 }
-
 .skills-bar li {
   font-size: 20px;
   list-style-type: none;
